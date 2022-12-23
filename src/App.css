@@ -1,0 +1,103 @@
+.app {
+  background: #ef32d9;
+  background: -webkit-linear-gradient(to top, #89fffd, #ef32d9); 
+  background: linear-gradient(to top, #89fffd, #ef32d9);    
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-principal {
+    font-size: 50px;
+    text-decoration: overline;
+}
+
+.nombre {
+  border-radius: 20px;  
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border: none;
+  display: flexbox;
+  height: 50px;
+}
+
+.edad {
+    font-size: 25px;
+    border-radius: 20px; 
+    text-align: center;
+    margin-top: 15px;
+    border: none;
+    height: 50px;
+}
+
+.boton-crear {
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 20px; 
+    text-align: center;
+    background-color: #6cb3ff;
+    width: 650px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border: none;
+    height: 50px;
+    color: #1a1c1e;
+}
+
+.boton-crear:hover {
+    background-color: #2271c5;
+    color: #fff;
+}
+
+.contenedor-tarjeta {
+    background-color: #7d2c8f94;
+    margin-top: 15px;
+    font-size: 10px;
+    margin-left: 220px;
+    border-radius: 30px;
+    width: 600px;
+    height: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+}
+
+.titulo-nombre {
+    font-size: 30px;
+}
+
+.titulo-edad {
+    font-size: 30px;
+}
+
+.boton-incrementar {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(128, 185, 250);
+}
+.boton-incrementar:hover {
+    background-color: rgb(13, 117, 236);
+    color: #fff;
+}
+
+.boton-eliminar {
+    font-size: 20px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(251, 135, 139);
+    border: none;
+}
+
+.boton-eliminar:hover {
+    background-color: rgb(255, 34, 42);
+    color: #fff;
+}
